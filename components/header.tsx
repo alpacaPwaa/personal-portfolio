@@ -58,7 +58,7 @@ export function Header() {
               </a>
             </Button>
             <Button asChild variant="ghost" size="icon" aria-label="LinkedIn">
-              <a href="https://www.linkedin.com/in/john-rey-doromal" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/john-rey-doromal-b98639315/" target="_blank" rel="noopener noreferrer">
                 <Linkedin className="h-5 w-5" />
               </a>
             </Button>

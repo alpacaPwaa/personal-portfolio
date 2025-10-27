@@ -56,7 +56,7 @@ export function Contact() {
                 </a>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <a href="https://www.linkedin.com/in/john-rey-doromal" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/john-rey-doromal-b98639315/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   LinkedIn
                 </a>

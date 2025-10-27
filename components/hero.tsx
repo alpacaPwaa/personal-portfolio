@@ -61,7 +61,7 @@ export function Hero() {
             </Button>
             <Button asChild variant="ghost" size="icon">
               <a
-                href="https://www.linkedin.com/in/john-rey-doromal"
+                href="https://www.linkedin.com/in/john-rey-doromal-b98639315/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
