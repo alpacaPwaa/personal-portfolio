@@ -23,7 +23,7 @@ const projects = [
     tags: ["Next.js", "TypeScript", "RAG", "AI", "Vector Database", "PostgreSQL"],
   },
   {
-    title: "Org - Community Platform",
+    title: "Community Platform",
     period: "December 2023 - March 2025",
     url: "https://org-public-version.vercel.app/",
     image: "/images/org-demo.png",
