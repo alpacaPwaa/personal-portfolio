@@ -6,6 +6,23 @@ import Image from "next/image"
 
 const projects = [
   {
+    title: "Multi-Tenant AI Legal Intelligence Platform",
+    period: "September 2025 - Present",
+    url: "#",
+    image: "/images/jurischat-v2-demo.png",
+    description:
+      "A production-grade AI legal intelligence SaaS platform with multi-tenant organizations, granular role-based security, and advanced RAG-powered, agent-based chat workflows.",
+    achievements: [
+      "Designed and implemented a multi-tenant SaaS architecture with organizations, roles, permissions, and row-level security (PostgreSQL RLS)",
+      "Implemented semantic document retrieval using chunked embeddings, HNSW indexes, and full-text search (Postgres tsvector + GIN)",
+      "Developed an agent-based chat system with tool invocation, structured message parts, and persistent conversation state",
+      "Built a secure document workspace supporting folders, versioned files, granular sharing, and audit activity logs",
+      "Enforced fine-grained access control using role-permission mappings and inheritance at the folder/file level",
+      "Built migration-safe schema using Drizzle ORM, PostgreSQL constraints, indexes, and policies",
+    ],
+    tags: ["Next.js", "TypeScript", "PostgreSQL", "RLS", "Drizzle ORM", "AI Agents", "RAG", "Multi-Tenant SaaS"],
+  },
+  {
     title: "AI Legal Database System (RAG)",
     period: "November 2024 - Present",
     url: "https://www.jurischat.net/",
@@ -80,7 +97,7 @@ export function Projects() {
                 <ul className="space-y-2">
                   {project.achievements.map((achievement, i) => (
                     <li key={i} className="text-muted-foreground leading-relaxed flex items-start gap-2">
-                      <span className="text-accent flex-shrink-0">•</span>
+                      <span className="text-accent shrink-0">•</span>
                       <span>{achievement}</span>
                     </li>
                   ))}
